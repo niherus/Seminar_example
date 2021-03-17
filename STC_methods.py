@@ -55,6 +55,7 @@ my_stc.tmin = 3
 print("my_stc", my_stc.tmin)
 print("my_stc2", my_stc2.tmin)
 print("=" * 100)
+
 my_stc = mne.read_source_estimate(examples[0])
 # crop - methods for cutting specific part of your data in time range
 
@@ -91,10 +92,12 @@ print("after", my_stc.data[200, 50])
 # DON'T FORGET TO SET SUBJECT NAME and SUBJECTS_DIR system variable
 my_stc.subject = "avg_platon_27sub"
 #my_stc.plot()
-fig = my_stc.plot(surface="inflated", hemi = "split", views = "med", size=(1600, 800))
+fig = my_stc.plot(surface="inflated", show=False) 
+# To find other surface check ../freesurfer/avg_platon_27sub/surf
 
 # if you want to save one picture
-fig.save_image("my_sreen.png")
+fig.save_image("my_sreen.png") #‘pyvista’
+#fig.save("my_sreen.png") #NO ‘pyvista’
 
 '''
 Parameters
@@ -195,6 +198,8 @@ Parameters
         New in version 0.20.0.
  
 '''
+
+
 
 
 
