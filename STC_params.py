@@ -15,16 +15,18 @@ print(*map(file_num, enumerate(examples)), sep="\n")
 
 
 my_stc = mne.read_source_estimate(examples[0])
+print(my_stc)
 print("=" * 100)
 print(*vars(my_stc).keys(), sep="\n")
 
+
 # data - 2D numpy array sourses x times
 print("=" * 100)
-print(my_stc.data)
+print(my_stc.data.shape)
 
 # data is mutable, so you can use any numpy methods here
 # Like this
-my_stc.data[0, 0] = 2
+
 print(my_stc.data.shape)
 
 print('''
@@ -33,7 +35,8 @@ print('''
       
       0 - 10241 - left hemi
       10242 - 20484 - right hemi
-      ''')
+      '''
+)
 
 # We have to ways to get data from one hemi (left for example)
 # First one
@@ -51,9 +54,11 @@ print(my_stc.rh_data.shape)
 # Check if data is same
 print(my_stc.data[10242:] == my_stc.rh_data)
 print("=" * 100)
+
 # time parames
 print(my_stc.times)
 # This parametre is immutable. You can't change it
+
 try:
     my_stc.times = np.linspace(-3, 1, 4001)
 except Exception as e:
