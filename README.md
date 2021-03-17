@@ -3,8 +3,9 @@ Example of stc processing in mne python.
 
 ## Versions:
 * python 3.7.7
-* mne 0.19.2
+* mne 0.22.0
 * pysurfer 0.11.0
+* pyvistaqt 0.3.0
 
 Considered:
 
