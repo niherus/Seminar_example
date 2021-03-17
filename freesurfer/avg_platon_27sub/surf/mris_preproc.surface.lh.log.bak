@@ -1,0 +1,1133 @@
+Mon Apr 18 23:57:00 MSK 2016
+/net/server/data/programs/platon/prj/pmwords/freesurfer/avg/surf
+--out lh.white.avg.area.mgh --f /tmp/subjlist.4660 --target avg --hemi lh --area white --mean --surfreg sphere.reg
+Linux cruncher.meg-local.ru 2.6.32-573.12.1.el6.x86_64 #1 SMP Tue Dec 15 08:24:23 CST 2015 x86_64 x86_64 x86_64 GNU/Linux
+setenv SUBJECTS_DIR /net/server/data/programs/platon/prj/pmwords/freesurfer/
+tmpdir is ./tmp.mris_preproc.10118
+
+
+
+---------------------------------------------------
+#@# 1/27 Shulga_Kirill Mon Apr 18 23:57:00 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Shulga_Kirill --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Shulga_Kirill.1.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Shulga_Kirill
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Shulga_Kirill.1.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Shulga_Kirill/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Shulga_Kirill/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (170258)
+Reverse Loop had 47959 hits
+INFO: nSrcLost = 0
+nTrg121 = 130505, nTrgMulti = 33337, MnTrgMultiHits = 2.43861
+nSrc121 = 137566, nSrcLost =     0, nSrcMulti = 32692, MnSrcMultiHits = 2.27074
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 2/27 Shaballin_Konstantin Mon Apr 18 23:57:14 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Shaballin_Konstantin --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Shaballin_Konstantin.2.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Shaballin_Konstantin
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Shaballin_Konstantin.2.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Shaballin_Konstantin/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Shaballin_Konstantin/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (169435)
+Reverse Loop had 48411 hits
+INFO: nSrcLost = 0
+nTrg121 = 135338, nTrgMulti = 28504, MnTrgMultiHits = 2.69839
+nSrc121 = 135810, nSrcLost =     0, nSrcMulti = 33625, MnSrcMultiHits = 2.2734
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 3/27 Garifulin_Dmitriy Mon Apr 18 23:57:28 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Garifulin_Dmitriy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Garifulin_Dmitriy.3.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Garifulin_Dmitriy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Garifulin_Dmitriy.3.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Garifulin_Dmitriy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Garifulin_Dmitriy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (137343)
+Reverse Loop had 26124 hits
+INFO: nSrcLost = 0
+nTrg121 = 144755, nTrgMulti = 19087, MnTrgMultiHits = 2.36868
+nSrc121 = 96960, nSrcLost =     0, nSrcMulti = 40383, MnSrcMultiHits = 2.3031
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 4/27 Kovalev_Dmitriy Mon Apr 18 23:57:40 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Kovalev_Dmitriy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Kovalev_Dmitriy.4.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Kovalev_Dmitriy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Kovalev_Dmitriy.4.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Kovalev_Dmitriy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Kovalev_Dmitriy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (141228)
+Reverse Loop had 28843 hits
+INFO: nSrcLost = 0
+nTrg121 = 143504, nTrgMulti = 20338, MnTrgMultiHits = 2.41818
+nSrc121 = 101474, nSrcLost =     0, nSrcMulti = 39754, MnSrcMultiHits = 2.29439
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 5/27 Goyaeva_Dzerassa Mon Apr 18 23:57:51 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Goyaeva_Dzerassa --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Goyaeva_Dzerassa.5.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Goyaeva_Dzerassa
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Goyaeva_Dzerassa.5.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Goyaeva_Dzerassa/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Goyaeva_Dzerassa/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (130579)
+Reverse Loop had 22496 hits
+INFO: nSrcLost = 0
+nTrg121 = 147206, nTrgMulti = 16636, MnTrgMultiHits = 2.35225
+nSrc121 = 88078, nSrcLost =     0, nSrcMulti = 42501, MnSrcMultiHits = 2.31195
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 6/27 Biryukov_Aleksey Mon Apr 18 23:58:03 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Biryukov_Aleksey --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Biryukov_Aleksey.6.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Biryukov_Aleksey
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Biryukov_Aleksey.6.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Biryukov_Aleksey/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Biryukov_Aleksey/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (157783)
+Reverse Loop had 40339 hits
+INFO: nSrcLost = 0
+nTrg121 = 136307, nTrgMulti = 27535, MnTrgMultiHits = 2.46501
+nSrc121 = 121939, nSrcLost =     0, nSrcMulti = 35844, MnSrcMultiHits = 2.29444
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 7/27 Lashkov_Andrey Mon Apr 18 23:58:16 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Lashkov_Andrey --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Lashkov_Andrey.7.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Lashkov_Andrey
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Lashkov_Andrey.7.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Lashkov_Andrey/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Lashkov_Andrey/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (162480)
+Reverse Loop had 44452 hits
+INFO: nSrcLost = 0
+nTrg121 = 134404, nTrgMulti = 29438, MnTrgMultiHits = 2.51002
+nSrc121 = 127276, nSrcLost =     0, nSrcMulti = 35204, MnSrcMultiHits = 2.30139
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 8/27 Skokova_Julia Mon Apr 18 23:58:30 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Skokova_Julia --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Skokova_Julia.8.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Skokova_Julia
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Skokova_Julia.8.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Skokova_Julia/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Skokova_Julia/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (131101)
+Reverse Loop had 23913 hits
+INFO: nSrcLost = 0
+nTrg121 = 146074, nTrgMulti = 17768, MnTrgMultiHits = 2.34585
+nSrc121 = 89191, nSrcLost =     0, nSrcMulti = 41910, MnSrcMultiHits = 2.3518
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 9/27 Masleniy_Evgeniy Mon Apr 18 23:58:41 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Masleniy_Evgeniy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Masleniy_Evgeniy.9.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Masleniy_Evgeniy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Masleniy_Evgeniy.9.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Masleniy_Evgeniy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Masleniy_Evgeniy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (159585)
+Reverse Loop had 39128 hits
+INFO: nSrcLost = 0
+nTrg121 = 135595, nTrgMulti = 28247, MnTrgMultiHits = 2.38521
+nSrc121 = 125032, nSrcLost =     0, nSrcMulti = 34553, MnSrcMultiHits = 2.25561
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 10/27 Timonov_Evgeniy Mon Apr 18 23:58:55 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Timonov_Evgeniy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Timonov_Evgeniy.10.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Timonov_Evgeniy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Timonov_Evgeniy.10.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Timonov_Evgeniy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Timonov_Evgeniy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (128205)
+Reverse Loop had 20234 hits
+INFO: nSrcLost = 0
+nTrg121 = 148300, nTrgMulti = 15542, MnTrgMultiHits = 2.30189
+nSrc121 = 85602, nSrcLost =     0, nSrcMulti = 42603, MnSrcMultiHits = 2.31143
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 11/27 Nazarova_Maria Mon Apr 18 23:59:05 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Nazarova_Maria --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Nazarova_Maria.11.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Nazarova_Maria
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Nazarova_Maria.11.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Nazarova_Maria/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Nazarova_Maria/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (130824)
+Reverse Loop had 22848 hits
+INFO: nSrcLost = 0
+nTrg121 = 146440, nTrgMulti = 17402, MnTrgMultiHits = 2.31295
+nSrc121 = 89084, nSrcLost =     0, nSrcMulti = 41740, MnSrcMultiHits = 2.33843
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 12/27 Skovorodko_Olga Mon Apr 18 23:59:17 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Skovorodko_Olga --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Skovorodko_Olga.12.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Skovorodko_Olga
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Skovorodko_Olga.12.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Skovorodko_Olga/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Skovorodko_Olga/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (138514)
+Reverse Loop had 28373 hits
+INFO: nSrcLost = 0
+nTrg121 = 144533, nTrgMulti = 19309, MnTrgMultiHits = 2.46942
+nSrc121 = 97655, nSrcLost =     0, nSrcMulti = 40859, MnSrcMultiHits = 2.3143
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 13/27 Galyuta_Ilia Mon Apr 18 23:59:28 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Galyuta_Ilia --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Galyuta_Ilia.13.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Galyuta_Ilia
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Galyuta_Ilia.13.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Galyuta_Ilia/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Galyuta_Ilia/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (141569)
+Reverse Loop had 28733 hits
+INFO: nSrcLost = 0
+nTrg121 = 142336, nTrgMulti = 21506, MnTrgMultiHits = 2.33605
+nSrc121 = 102467, nSrcLost =     0, nSrcMulti = 39102, MnSrcMultiHits = 2.30443
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 14/27 Gniteeva_Lyudmila Mon Apr 18 23:59:40 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Gniteeva_Lyudmila --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Gniteeva_Lyudmila.14.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Gniteeva_Lyudmila
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Gniteeva_Lyudmila.14.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Gniteeva_Lyudmila/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Gniteeva_Lyudmila/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (115905)
+Reverse Loop had 16399 hits
+INFO: nSrcLost = 0
+nTrg121 = 151966, nTrgMulti = 11876, MnTrgMultiHits = 2.38085
+nSrc121 = 69765, nSrcLost =     0, nSrcMulti = 46140, MnSrcMultiHits = 2.39437
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 15/27 Arkhipova_Elena Mon Apr 18 23:59:50 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Arkhipova_Elena --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Arkhipova_Elena.15.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Arkhipova_Elena
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Arkhipova_Elena.15.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Arkhipova_Elena/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Arkhipova_Elena/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (141298)
+Reverse Loop had 29926 hits
+INFO: nSrcLost = 0
+nTrg121 = 142309, nTrgMulti = 21533, MnTrgMultiHits = 2.38977
+nSrc121 = 102166, nSrcLost =     0, nSrcMulti = 39132, MnSrcMultiHits = 2.34085
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 16/27 Rekubratskiy_Vitaliy Tue Apr 19 00:00:02 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Rekubratskiy_Vitaliy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Rekubratskiy_Vitaliy.16.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Rekubratskiy_Vitaliy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Rekubratskiy_Vitaliy.16.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Rekubratskiy_Vitaliy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Rekubratskiy_Vitaliy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (138663)
+Reverse Loop had 26661 hits
+INFO: nSrcLost = 0
+nTrg121 = 144281, nTrgMulti = 19561, MnTrgMultiHits = 2.36297
+nSrc121 = 98479, nSrcLost =     0, nSrcMulti = 40184, MnSrcMultiHits = 2.29007
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 17/27 Slobodskoy_Yaroslav Tue Apr 19 00:00:13 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Slobodskoy_Yaroslav --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Slobodskoy_Yaroslav.17.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Slobodskoy_Yaroslav
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Slobodskoy_Yaroslav.17.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Slobodskoy_Yaroslav/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Slobodskoy_Yaroslav/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (144535)
+Reverse Loop had 31285 hits
+INFO: nSrcLost = 0
+nTrg121 = 143215, nTrgMulti = 20627, MnTrgMultiHits = 2.5167
+nSrc121 = 105023, nSrcLost =     0, nSrcMulti = 39512, MnSrcMultiHits = 2.28042
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 18/27 Trufanova_Zhenya Tue Apr 19 00:00:25 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Trufanova_Zhenya --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Trufanova_Zhenya.18.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Trufanova_Zhenya
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Trufanova_Zhenya.18.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Trufanova_Zhenya/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Trufanova_Zhenya/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (140651)
+Reverse Loop had 29246 hits
+INFO: nSrcLost = 0
+nTrg121 = 142230, nTrgMulti = 21612, MnTrgMultiHits = 2.35323
+nSrc121 = 101001, nSrcLost =     0, nSrcMulti = 39650, MnSrcMultiHits = 2.3225
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 19/27 Chukhutova_Galina Tue Apr 19 00:00:37 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Chukhutova_Galina --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Chukhutova_Galina.19.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Chukhutova_Galina
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Chukhutova_Galina.19.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Chukhutova_Galina/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Chukhutova_Galina/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (122898)
+Reverse Loop had 18039 hits
+INFO: nSrcLost = 0
+nTrg121 = 150098, nTrgMulti = 13744, MnTrgMultiHits = 2.3125
+nSrc121 = 78931, nSrcLost =     0, nSrcMulti = 43967, MnSrcMultiHits = 2.34153
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 20/27 Sokolov_Boris Tue Apr 19 00:00:47 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Sokolov_Boris --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Sokolov_Boris.20.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Sokolov_Boris
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Sokolov_Boris.20.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Sokolov_Boris/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Sokolov_Boris/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (149906)
+Reverse Loop had 33930 hits
+INFO: nSrcLost = 0
+nTrg121 = 139616, nTrgMulti = 24226, MnTrgMultiHits = 2.40056
+nSrc121 = 112516, nSrcLost =     0, nSrcMulti = 37390, MnSrcMultiHits = 2.28018
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 21/27 Vlasova_Roza Tue Apr 19 00:00:59 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Vlasova_Roza --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Vlasova_Roza.21.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Vlasova_Roza
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Vlasova_Roza.21.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Vlasova_Roza/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Vlasova_Roza/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (133836)
+Reverse Loop had 24418 hits
+INFO: nSrcLost = 0
+nTrg121 = 146110, nTrgMulti = 17732, MnTrgMultiHits = 2.37706
+nSrc121 = 92247, nSrcLost =     0, nSrcMulti = 41589, MnSrcMultiHits = 2.30862
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 22/27 Filimonov_Rodion Tue Apr 19 00:01:10 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Filimonov_Rodion --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Filimonov_Rodion.22.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Filimonov_Rodion
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Filimonov_Rodion.22.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Filimonov_Rodion/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Filimonov_Rodion/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (150681)
+Reverse Loop had 36480 hits
+INFO: nSrcLost = 0
+nTrg121 = 139056, nTrgMulti = 24786, MnTrgMultiHits = 2.4718
+nSrc121 = 112936, nSrcLost =     0, nSrcMulti = 37745, MnSrcMultiHits = 2.31517
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 23/27 Yarmolova_Elena Tue Apr 19 00:01:23 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Yarmolova_Elena --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Yarmolova_Elena.23.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Yarmolova_Elena
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Yarmolova_Elena.23.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Yarmolova_Elena/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Yarmolova_Elena/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (132280)
+Reverse Loop had 24055 hits
+INFO: nSrcLost = 0
+nTrg121 = 146268, nTrgMulti = 17574, MnTrgMultiHits = 2.36878
+nSrc121 = 90793, nSrcLost =     0, nSrcMulti = 41487, MnSrcMultiHits = 2.34059
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 24/27 Spiridonov_Arseniy Tue Apr 19 00:01:34 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Spiridonov_Arseniy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Spiridonov_Arseniy.24.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Spiridonov_Arseniy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Spiridonov_Arseniy.24.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Spiridonov_Arseniy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Spiridonov_Arseniy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (141052)
+Reverse Loop had 28860 hits
+INFO: nSrcLost = 0
+nTrg121 = 144324, nTrgMulti = 19518, MnTrgMultiHits = 2.47864
+nSrc121 = 100891, nSrcLost =     0, nSrcMulti = 40161, MnSrcMultiHits = 2.28607
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 25/27 Budulev_Nikita Tue Apr 19 00:01:46 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Budulev_Nikita --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Budulev_Nikita.25.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Budulev_Nikita
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Budulev_Nikita.25.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Budulev_Nikita/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Budulev_Nikita/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (157017)
+Reverse Loop had 38276 hits
+INFO: nSrcLost = 0
+nTrg121 = 136461, nTrgMulti = 27381, MnTrgMultiHits = 2.3979
+nSrc121 = 121339, nSrcLost =     0, nSrcMulti = 35678, MnSrcMultiHits = 2.26411
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 26/27 Kozlov_Alexey Tue Apr 19 00:01:59 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Kozlov_Alexey --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Kozlov_Alexey.26.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Kozlov_Alexey
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Kozlov_Alexey.26.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Kozlov_Alexey/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Kozlov_Alexey/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (157185)
+Reverse Loop had 35732 hits
+INFO: nSrcLost = 0
+nTrg121 = 136599, nTrgMulti = 27243, MnTrgMultiHits = 2.3116
+nSrc121 = 122863, nSrcLost =     0, nSrcMulti = 34322, MnSrcMultiHits = 2.23504
+Saving target data
+
+
+
+---------------------------------------------------
+#@# 27/27 Lomakin_Dmitriy Tue Apr 19 00:02:12 MSK 2016 --------------
+-----------------------
+mri_surf2surf --hemi lh --srcsubject Lomakin_Dmitriy --surfreg sphere.reg --sval-area white --jac --trgsubject avg --tval ./tmp.mris_preproc.10118/Lomakin_Dmitriy.27.mgh --noreshape
+Source registration surface changed to sphere.reg
+Target registration surface changed to sphere.reg
+srcsubject = Lomakin_Dmitriy
+srcval     = (null)
+srctype    = 
+trgsubject = avg
+trgval     = ./tmp.mris_preproc.10118/Lomakin_Dmitriy.27.mgh
+trgtype    = 
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+srchemi    = lh
+trghemi    = lh
+frame      = 0
+fwhm-in    = 0
+fwhm-out   = 0
+label-src  = (null)
+label-trg  = (null)
+Reading source surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//Lomakin_Dmitriy/surf/lh.sphere.reg
+Loading source data
+Reading surface file /net/server/data/programs/platon/prj/pmwords/freesurfer//Lomakin_Dmitriy/surf/lh.white
+INFO: surfcluster: NOT fixing group surface area
+Reading target surface reg /net/server/data/programs/platon/prj/pmwords/freesurfer//avg/surf/lh.sphere.reg
+Done
+Mapping Source Volume onto Source Subject Surface with Jacobian Correction
+surf2surf_nnfr: building source hash (res=16).
+Surf2Surf: 1st Forward Loop (163842)
+
+surf2surf_nnfr: building target hash (res=16).
+Surf2Surf: Reverse Loop (145936)
+Reverse Loop had 32045 hits
+INFO: nSrcLost = 0
+nTrg121 = 140894, nTrgMulti = 22948, MnTrgMultiHits = 2.39642
+nSrc121 = 107617, nSrcLost =     0, nSrcMulti = 38319, MnSrcMultiHits = 2.30356
+Saving target data
+
+
+
+-----------------------
+mri_concat ./tmp.mris_preproc.10118/Shulga_Kirill.1.mgh ./tmp.mris_preproc.10118/Shaballin_Konstantin.2.mgh ./tmp.mris_preproc.10118/Garifulin_Dmitriy.3.mgh ./tmp.mris_preproc.10118/Kovalev_Dmitriy.4.mgh ./tmp.mris_preproc.10118/Goyaeva_Dzerassa.5.mgh ./tmp.mris_preproc.10118/Biryukov_Aleksey.6.mgh ./tmp.mris_preproc.10118/Lashkov_Andrey.7.mgh ./tmp.mris_preproc.10118/Skokova_Julia.8.mgh ./tmp.mris_preproc.10118/Masleniy_Evgeniy.9.mgh ./tmp.mris_preproc.10118/Timonov_Evgeniy.10.mgh ./tmp.mris_preproc.10118/Nazarova_Maria.11.mgh ./tmp.mris_preproc.10118/Skovorodko_Olga.12.mgh ./tmp.mris_preproc.10118/Galyuta_Ilia.13.mgh ./tmp.mris_preproc.10118/Gniteeva_Lyudmila.14.mgh ./tmp.mris_preproc.10118/Arkhipova_Elena.15.mgh ./tmp.mris_preproc.10118/Rekubratskiy_Vitaliy.16.mgh ./tmp.mris_preproc.10118/Slobodskoy_Yaroslav.17.mgh ./tmp.mris_preproc.10118/Trufanova_Zhenya.18.mgh ./tmp.mris_preproc.10118/Chukhutova_Galina.19.mgh ./tmp.mris_preproc.10118/Sokolov_Boris.20.mgh ./tmp.mris_preproc.10118/Vlasova_Roza.21.mgh ./tmp.mris_preproc.10118/Filimonov_Rodion.22.mgh ./tmp.mris_preproc.10118/Yarmolova_Elena.23.mgh ./tmp.mris_preproc.10118/Spiridonov_Arseniy.24.mgh ./tmp.mris_preproc.10118/Budulev_Nikita.25.mgh ./tmp.mris_preproc.10118/Kozlov_Alexey.26.mgh ./tmp.mris_preproc.10118/Lomakin_Dmitriy.27.mgh --o lh.white.avg.area.mgh --mean
+ninputs = 27
+Checking inputs
+nframestot = 27
+Allocing output
+nframes = 27
+Computing mean across frames
+Writing to lh.white.avg.area.mgh
+
+
+
+Cleaning up
+-----------------------
+rm -r ./tmp.mris_preproc.10118
+Tue Apr 19 00:02:24 MSK 2016
+mris_preproc done
