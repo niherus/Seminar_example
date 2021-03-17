@@ -1,7 +1,6 @@
 import mne, os
 import numpy as np
 from mne import set_log_level
-from surfer import Brain
 import matplotlib.pyplot as plt
 set_log_level("ERROR")
 os.environ["SUBJECTS_DIR"] = "/home/niherus/Рабочий стол/Seminar_example/freesurfer"
@@ -14,13 +13,29 @@ print("=" * 100)
 print(*map(file_num, enumerate(examples)), sep="\n")
 
 my_stc = mne.read_source_estimate(examples[0])
-label = mne.read_label("../Label_examples/my_label-lh.label")
-my_stc.subject = "avg_platon_27sub"
+my_stc.subject = "avg_platon_27sub" 
 
-new = my_stc.in_label(label)
+ # read label file
+label = mne.read_label("../Label_examples/my_label-lh.label") 
 
-fig = new.plot()
-fig.add_label(label)
+ris = "get activity just in label"
+
+if ris == 'get activity just in label':
+       
+    # get activity just in label
+    my_stc = my_stc.in_label(label) 
+    fig = my_stc.plot()
+    
+elif ris == "add label on brain model":
+    
+    fig = my_stc.plot()
+    # add label on brain model"
+    fig.add_label(label, borders=True) # border - show borders or not
+
+
+
+
+
 
 
 
